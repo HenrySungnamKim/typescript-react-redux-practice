@@ -1,9 +1,9 @@
 import React from "react";
-import TodoItemList from "./components/TodoList";
+import TodoItemListContainer from "./container/TodoListContainer";
 const App = () => {
   return (
     <div>
-      <TodoItemList />
+      <TodoItemListContainer />
     </div>
   );
 };

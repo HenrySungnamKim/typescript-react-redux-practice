@@ -23,7 +23,7 @@ const TodoItem: React.SFC<Props> = ({ text, done, onToggle, onRemove }) => {
           style={{ all: "unset", marginLeft: "0.5rem" }}
           onClick={onRemove}
         >
-          [지우기]
+          [Remove]
         </button>
       </li>
     </div>
